@@ -55,7 +55,7 @@ if ! apt-cache show "$cuda_pkg"; then
     exit 1
 fi
 
-if ! apt-cache show "$cuda_dev_pkg"; then
+if ! apt-cache show $cuda_dev_pkg; then
     echo "The requested version of CUDA development packages is not available: CUDA $CUDA_VERSION"
     exit 1
 fi
