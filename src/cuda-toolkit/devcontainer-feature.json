@@ -1,6 +1,6 @@
 {
   "id": "cuda-toolkit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "name": "NVIDIA CUDA Compiler and Tools",
   "description": "Installs shared libraries, compiler (nvcc) and command-line tools for NVIDIA CUDA.",
   "documentationURL": "https://github.com/brokencuph/devcontainer-features/tree/main/src/cuda-toolkit",
