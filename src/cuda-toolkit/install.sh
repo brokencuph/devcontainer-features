@@ -61,7 +61,7 @@ if ! apt-cache show $cuda_dev_pkg; then
 fi
 
 echo "Installing CUDA libraries..."
-apt-get install -yq "$cuda_pkg" "$cuda_dev_pkg"
+apt-get install -yq "$cuda_pkg" $cuda_dev_pkg
 
 if [ "$INSTALL_COMMANDLINE_TOOLS" = "true" ]; then
     if ! apt-cache show "$cuda_tools_pkg"; then
